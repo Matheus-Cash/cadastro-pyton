@@ -1,16 +1,16 @@
-nome = str(input ('Digite seu Nome'));
-edereco = str (input ('endereço'));
-cpf = float (input('numero cpf'));
-numero de telefone = float (('digite numero de telefone'));
-email = str (input('digite seu imail'));
-data_nascimento = (input('coleque sua data de nascimento  (DD/MM/AAAA):'));
-genero = (input('digite seu genero'));
 
+nome = input('Digite seu Nome: ')
+endereco = input('Digite seu Endereço: ')
+cpf = input('Digite seu CPF (apenas números): ')  
+numero_telefone = input('Digite seu Número de Telefone: ') 
+email = input('Digite seu Email: ')
+data_nascimento = input('Coleque sua Data de Nascimento (DD/MM/AAAA): ')
+genero = input('Digite seu Gênero: ')
 
-print(f''nome {nome}'' );
-print(f'' endereco {endereco}'');
-print (f'' numero de telefone {numero de telefone}'');
-print (f''cpf{cpf}'');
-print(f'' email{email}'');
-print(f''genero{genero}'');
-print(f''data_nascimento{data_nascimento}'');
+print(f'Nome: {nome}')
+print(f'Endereço: {endereco}')
+print(f'Número de Telefone: {numero_telefone}')
+print(f'CPF: {cpf}')
+print(f'Email: {email}')
+print(f'Gênero: {genero}')
+print(f'Data de Nascimento: {data_nascimento}')
