@@ -14,3 +14,5 @@ print(f'CPF: {cpf}')
 print(f'Email: {email}')
 print(f'Gênero: {genero}')
 print(f'Data de Nascimento: {data_nascimento}')
+
+print("\n Obrigado Tudo foi registrado com sucesso.")
